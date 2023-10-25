@@ -1,0 +1,74 @@
+.title{
+    font-size: 20px;
+}
+
+.hellow{
+    height: 100%;
+    background-image:url(bckimg2.jpg);
+    background-repeat:none ;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.hola{
+    border-style: dashed;
+    border-width:2px;
+    border-color:lightcoral ;
+}
+
+.vanakkam{
+    border:2px solid lightseagreen;
+    border-radius: 50px;
+}
+
+.test{
+    border: 2px solid red;
+    margin:40px;
+    padding:40px;
+    line-height: 30px;
+}
+
+ul{
+    list-style: square;
+}
+
+
+.marta p{
+    font-size:40px;
+}
+.marta p:hover{
+    color: red;
+}
+
+.demo{
+    width:700px;
+    height: 700px;
+    background: saddlebrown;
+    display: flex;
+}
+
+.demo-inner{
+    width:150px;
+    height: 150px;
+    background: red;
+    font-size:30px;
+    color:white;
+}
+
+.demo-inner:nth-child(1){
+    background:pink ;
+    flex-basis:30% ;
+}
+.demo-inner:nth-child(2){
+    background:lightgray ;
+    flex-basis:20%;
+}
+.demo-inner:nth-child(3){
+    background:lavender ;
+    flex-basis:40%;
+}
+.demo-inner:nth-child(4){
+    background:teal ;
+    flex-basis:10%;
+}
